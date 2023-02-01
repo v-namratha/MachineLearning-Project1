@@ -14,7 +14,7 @@ st.title (string, anchor=None)
 
 
 from PIL import Image
-image = Image.open('startup.png')
+image = Image.open('p11.jpg')
 
 st.image(image)
 
