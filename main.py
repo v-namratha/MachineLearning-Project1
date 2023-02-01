@@ -9,7 +9,7 @@ string = "Profit Prediction of Startup’s"
 
 st.set_page_config(page_title=string, page_icon="✅", layout="centered", initial_sidebar_state="auto", menu_items=None)
 
-st.title (string, anchor=None, _italics_ , blue[colors] )
+st.title (string, anchor=None )
 
 
 
