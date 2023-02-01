@@ -58,15 +58,15 @@ st.write('The current number is ', Marketing_cost_Spend)
 
 option = st.sidebar.selectbox(
      'Select the region',
-     ('Delhi', 'Banglore', 'Pune'))
+     ('New York', 'California', 'Florida'))
 
 st.write('You selected:', option)
 
-if option == "Pune":
+if option == "Florida":
     optn = 0
-if option == "Banglore":
+if option == "California":
     optn = 1
-if option == "Delhi":
+if option == "New York":
     optn = 2   
 
 y_pred = model.predict([[Marketing_cost_Spend,Administration_cost,rnd_cost,optn]])
